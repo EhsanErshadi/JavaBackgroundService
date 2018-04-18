@@ -1,0 +1,14 @@
+
+2018-04-18 13:14:48 Commons Daemon procrun stdout initialized
+starting ...
+start done
+Thread Running
+Hello 1, int=false
+Hello 2, int=false
+Hello 3, int=false
+Hello 4, int=false
+Hello 5, int=false
+Hello 6, int=false
+stopping ...
+stop done
+loop done

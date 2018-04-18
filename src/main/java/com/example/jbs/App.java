@@ -6,8 +6,7 @@ import java.net.InetAddress;
 
 import com.example.jbs.*;
 
-public class App {
-	// private static MainRunnable mainRunnable;
+public class App { 
 	private static Thread mainThread;
 
 	private static String host = "localhost";
@@ -20,7 +19,7 @@ public class App {
 
 	public static void start(String[] args) {
 		SendUdp("starting ...");
-		// mainRunnable = new MainRunnable();
+
 		mainThread = new Thread() {
 			public void run() {
 				SendUdp("Thread Running");
